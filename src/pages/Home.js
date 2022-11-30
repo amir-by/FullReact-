@@ -1,16 +1,22 @@
+import { useState } from 'react'
 import CreatePost from '../components/CreatePost'
 import PostDetails from '../components/PostDetails'
 import Posts from '../components/Posts'
 
 const Home = () => {
-  const title ="Home"
-  const style = {width:"fit-content", marginTop:"30px"}
+   const title ="Home"
+   const style = {width:"fit-content", marginTop:"30px", backgroundColor:"black"}
+
+   
   return (
     <div className='min-h-screen pb-9'>
-      <h1 style={style} className='h1 btn'>{title}</h1>
+      <h1   style={style} className='h1 btn'>{title}</h1>
+ 
+
+
       <Posts/>
-      <PostDetails/>
-      <CreatePost/>
+      {/* <PostDetails/>
+      <CreatePost/> */}
     </div>
   )
 }

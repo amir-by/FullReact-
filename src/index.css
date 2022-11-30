@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ .btn{
+  @apply cursor-pointer text-white hover:bg-black  bg-indigo-700 duration-300 border  px-3 py-2 rounded-full
+ }
+
+ .card{
+  @apply cursor-pointer hover:scale-105 duration-300
+ }
+ .h1{
+  @apply text-3xl font-bold text-red-600
+ }
+
+ .image{
+  @apply rounded-lg w-full h-full object-cover
+ }
+
+ .iflex{
+  @apply  flex justify-between items-center
+ }

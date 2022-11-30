@@ -1,9 +1,22 @@
- 
+ import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl text-red-600">hello Amir</h1>
+    {/* Header */}
+       <Navbar/>
+
+       {/* content */}
+        <main>
+        <Home/>
+      </main>
+     
+
+    {/* Footer */}
+      {/* <Footer/> */}
+   
     </div>
   );
 }
